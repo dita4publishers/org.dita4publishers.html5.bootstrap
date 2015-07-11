@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+       Licensed to the Apache Software Foundation (ASF) under one
+       or more contributor license agreements.  See the NOTICE file
+       distributed with this work for additional information
+       regarding copyright ownership.  The ASF licenses this file
+       to you under the Apache License, Version 2.0 (the
+       "License"); you may not use this file except in compliance
+       with the License.  You may obtain a copy of the License at
+
+         http://www.apache.org/licenses/LICENSE-2.0
+
+       Unless required by applicable law or agreed to in writing,
+       software distributed under the License is distributed on an
+       "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+       KIND, either express or implied.  See the License for the
+       specific language governing permissions and limitations
+       under the License.
+-->
+<html5>
+  <!-- Core -->
+  <tag>
+    <name>link</name>
+    <output>yes</output>
+    <filename>style.css</filename>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+        <rel>stylesheet</rel>
+        <type>text/css</type>
+        <media>screen, projection</media>
+    </attributes>
+    <value></value>
+    <source>
+      <file path="html5-bootstrap/bootstrap/css/bootstrap.css"/>
+      <file path="html5-bootstrap/bootstrap/css/bootstrap-theme.css" />
+      <file path="html5-bootstrap/font-awesome-4.2.0/css/font-awesome.min.css" />
+      <file path="html5-bootstrap/d4p-boostrap/css/custom.css"/>
+      <file path="html5-bootstrap/d4p-boostrap/css/header.css"/>
+      <file path="modules/jQuery-widgets/navigation/classic/css/collapsible-navigation.css" />
+    </source>
+  </tag>
+
+  <tag>
+    <name>link</name>
+    <output>yes</output>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+      <src>http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700</src>
+    </attributes>
+    <value></value>
+  </tag>
+
+  <tag>
+    <name>script</name>
+    <output>yes</output>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+      <rel>stylesheet</rel>
+      <type>text/css</type>
+      <media>screen, projection, print</media>
+      <src>http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML</src>
+    </attributes>
+    <value></value>
+  </tag>
+
+  <tag position="footer">
+    <name>script</name>
+    <output>yes</output>
+    <filename>script.js</filename>
+    <prefix></prefix>
+    <suffix></suffix>
+    <attributes>
+        <type>text/javascript</type>
+    </attributes>
+    <value></value>
+    <source>
+      <file path="html5-bootstrap/jQuery/jquery.js"/>
+      <file path="modules/d4p/js/d4p.js"/>
+      <file path="modules/highlight/highlight.js"/>
+      <file path="html5-bootstrap/bootstrap/js/bootstrap.js"/>
+      <file path="html5-bootstrap/d4p-boostrap/js/IE10-viewport-bug-workarround.js"/>
+      <file path="html5-bootstrap/d4p-boostrap/js/headroom.js"/>
+      <file path="modules/jQuery-widgets/navigation/classic/js/navigation.js" />
+      <file path="modules/DataTables-1.10.4/media/js/jquery.dataTables.js" />
+      <file path="modules/lunr/lunr.js" />
+      <file path="modules/lunr/html5-lunr.js" />
+      <!--file path="modules/hammer.js/hammer.js"/-->
+      <!--file path="modules/syntaxhighlighter_3.0.83/scripts/shCore.js"/>
+      <file path="modules/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"/>
+      <file path="modules/syntaxhighlighter_3.0.83/scripts/shBrushXML.js"/>
+      <file path="modules/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"/>
+      <file path="modules/syntaxhighlighter_3.0.83/scripts/shBrushCss.js"/>
+      <file path="modules/syntaxhighlighter_3.0.83/scripts/shBrushBash.js"/>
+      <file path="modules/syntaxhighlighterAdapter/syntaxHighlighterAdapter.js"/-->
+      <file path="html5-bootstrap/d4p-boostrap/js/buttons.js"/>
+      <file path="html5-bootstrap/d4p-boostrap/js/script.js"/>
+    </source>
+  </tag>
+
+  <d4p>
+    <l>
+      <var name="searchPageHeading" string="searchPageHeading" />
+      <var name="close" string="close" />
+    </l>
+  </d4p>
+</html5>
