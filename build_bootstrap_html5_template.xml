@@ -1,0 +1,19 @@
+<project name="dita2bootstrap" default="dita2d4p-html5-bootstrap" xmlns:dita="http://dita-ot.sourceforge.net">
+
+  <property name="transtype" value="bootstrap"/>
+  <dirname property="dita2bootstrap.dir" file="${ant.file.dita2bootstrap}"/>
+
+  <target name="dita2d4p-html5-bootstrap"
+    xmlns:dita="http://dita-ot.sourceforge.net"
+    dita:extension="depends org.dita.dost.platform.InsertDependsAction">
+
+    <antcall target="dita2d4p-html5">
+      <param name="map2html5.style" value="${dita2bootstrap.dir}/xsl/map2bootstrap.xsl"/>
+      <param name="html5.site.theme" value="html5-bootstrap" />
+      <param name="html5.theme.config.dir" value="${dita2bootstrap.dir}/theme" />
+      <param name="html5.theme.dir" value="${dita2bootstrap.dir}/cached-themes/html5-bootstrap" />
+    </antcall>
+
+  </target>
+
+</project>

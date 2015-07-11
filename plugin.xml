@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="org.dita4publishers.html5.bootstrap">
+
+  <require plugin="org.dita4publishers.html5" />
+
+  <extension-point id="xsl.transtype-bootstrap" name="XSLT extension for HTML5 boostrap" />
+
+  <template file="build_bootstrap_html5_template.xml" />
+  <template file="xsl/map2bootstrap_template.xsl" />
+
+  <feature extension="dita.conductor.transtype.check" value="d4p-html5-bootstrap" type="txt" />
+  <feature extension="dita.conductor.target.relative" file="build.xml" type="file" />
+  <feature extension="dita.html5.map" value="parameters.xml" type="file" />
+  <feature extension="dita.xsl.strings" value="strings/strings.xml" type="file"/>
+  <feature extension="xsl.transtype-html5" value="xsl/custom-all-html5-transforms.xsl" type="file" />
+
+</plugin>

@@ -1,0 +1,4 @@
+<dummy>
+  <!-- add here all params you ant to pass to the xslt -->
+  <!--param name="MY.PARAM" expression="my.param.ant.property"/-->
+</dummy>
