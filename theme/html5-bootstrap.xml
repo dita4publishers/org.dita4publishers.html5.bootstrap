@@ -37,6 +37,9 @@
       <file path="html5-bootstrap/font-awesome-4.2.0/css/font-awesome.min.css" />
       <file path="html5-bootstrap/d4p-boostrap/css/custom.css"/>
       <file path="html5-bootstrap/d4p-boostrap/css/header.css"/>
+      <file path="html5-bootstrap/d4p-boostrap/css/navigation.css"/>
+      <file path="html5-bootstrap/d4p-boostrap/css/footer.css"/>
+      <file path="html5-bootstrap/d4p-boostrap/css/scrollnav.css"/>
       <file path="modules/jQuery-widgets/navigation/classic/css/collapsible-navigation.css" />
     </source>
   </tag>

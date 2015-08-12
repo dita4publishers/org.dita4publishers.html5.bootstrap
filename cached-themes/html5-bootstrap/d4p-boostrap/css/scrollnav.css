@@ -1,0 +1,96 @@
+/**
+ * Scroll Navigation
+ * © University of Ottawa, 2015
+ */
+
+#topNav {
+  margin-bottom:0;
+  -webkit-border-radius: none;
+ -moz-border-radius: none;
+  border-radius: none;
+}
+
+.navbar {
+    border-radius:0px;
+}
+
+#scrollnav {
+  margin-top:1.5em;
+  display:block;
+}
+
+#scrollnav .nav {
+  margin:0em;
+  padding:0em;
+}
+
+#scrollnav > ul.nav > li > a:first-child,
+#scrollnav > ul.nav > li.active > a:first-child {
+  font-weight: bold;
+  border-left:2px solid #FFFFFF;
+}
+
+#scrollnav .nav a {
+  padding-left:1em;
+  border-left:2px solid #FFFFFF;
+  display:block;
+  position:relative;
+}
+
+#scrollnav li a:hover, 
+#scrollnav li a:focus {
+    background-color: none;
+    text-decoration: underline;
+    color:#8f001a;
+}
+
+#scrollnav .nav > li > a:hover, #scrollnav .nav > li > a:focus {
+  background-color: #fff;
+}
+
+#scrollnav ul, 
+#scrollnav ul li ul {
+  margin:0;
+  padding-left:0;
+  display:block;
+}
+
+#main-content #scrollnav li {
+  margin:0.1em 0;
+  padding:0;
+}
+
+#main-content #scrollnav li:before {
+  content:"";
+}
+
+#scrollnav ul li ul li ul {
+  height:0px;
+  overflow:hidden;
+}
+
+#scrollnav ul.nav li ul li ul a {
+  margin-left:0;
+  padding-left:2.5em;
+  font-size:0.95em;
+}
+
+
+#scrollnav li.active > a:first-child {
+  border-left:2px solid #8f001a;
+  font-weight: bold;
+}
+
+#scrollnav li.active > ul {
+  height:auto;
+}
+
+
+#main-content ul.pager {
+  padding:0;
+}
+
+.pager li > a, .pager li > span
+{ 
+  font-size:0.85em;
+}

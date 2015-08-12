@@ -1,0 +1,282 @@
+/**
+ * Imported from uza_lists.css
+ * Add some modifications
+ * © University of Ottawa, 2015
+ */
+
+ul.uos--list--mixed,
+ol.uos--list--mixed,
+div.uos--list--mixed .uoe--list
+{
+	font-family: Roboto, Verdana, Helvetica, sans-serif;
+	font-size: 0.875rem;
+}
+
+ul.uos--list--links,
+div.uos--list--links .uoe--list { padding-left: 0; }
+
+ul.uos--list--links > li:before,
+div.uos--list--links .uoe--list > li:before
+{
+	content: none;
+	display: inline;
+}
+
+.uos--list--centered { text-align: center; }
+
+ul.uos--list--horizontal > li,
+div.uos--list--links .uoe--list > li
+{
+	width: auto;
+	display: inline-block;
+	margin: 1em 0;
+	padding: 0 4px 0 0px;
+	border-right: 1px solid #ccc;
+}
+
+ul.uos--list--horizontal > li:first-child,
+div.uos--list--links .uoe--list > li:first-child { padding-left: 0; }
+
+ul.uos--list--horizontal > li:last-child,
+div.uos--list--links .uoe--list > li:last-child
+{
+	padding-right: 0;
+	border: none;
+}
+
+ul.uos--list--horizontal > li > a,
+div.uos--list--links .uoe--list > li > a { }
+ol.uos--list--lower-alpha,
+div.uos--list--lower-alpha ol.uoe--list { list-style-type: lower-alpha; }
+ol.uos--list-upper-alpha,
+div.uos--list-upper-alpha ol.uoe--list { list-style-type: upper-alpha; }
+ol.uos--list--lower-roman,
+div.uos--list--lower-roman ol.uoe--list { list-style-type: lower-roman; }
+ol.uos--list--upper-roman,
+div.uos--list--upper-roman ol.uoe--list { list-style-type: upper-roman; }
+ol.uos--list--decimal-leading-zero,
+div.uos--list--decimal-leading-zero ol.uoe--list { list-style-type: decimal-leading-zero; }
+
+/* -------------------------------------------------------- List Styles (End) */
+/* ------------------------------ List Layout : uol--list--two-column (Start) */
+ul.uol--list--two-column,
+ol.uol--list--two-column,
+div.uol--list--two-column ul.uoe--list,
+div.uol--list--two-column ol.uoe--list
+{
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+ul.uol--list--two-column > li,
+div.uol--list--two-column ul.uoe--list > li { padding-left: 10px; }
+ul.uol--list--two-column > li:before,
+div.uol--list--two-column ul.uoe--list > li:before { left: -8px; }
+
+ul.uol--list--two-column > li,
+ol.uol--list--two-column > li,
+div.uol--list--two-column ul.uoe--list > li,
+div.uol--list--two-column ol.uoe--list > li
+{
+	/* uol--dir--ltr, uol--width--500 */
+	float: left;
+	width: 50%;
+}
+
+ul.uol--list--two-column > li:nth-child(2n+1),
+ol.uol--list--two-column > li:nth-child(2n+1),
+div.uol--list--two-column ul.uoe--list > li:nth-child(2n+1),
+div.uol--list--two-column ol.uoe--list > li:nth-child(2n+1)
+{
+	padding-right: 3px;
+	clear: both;
+}
+
+ul.uol--list--two-column > li:nth-child(2n),
+div.uol--list--two-column ul.uoe--list > li:nth-child(2n) { padding-left: 13px; }
+ol.uol--list--two-column > li:nth-child(2n),
+div.uol--list--two-column ol.uoe--list > li:nth-child(2n) { padding-left: 3px; }
+ul.uol--list--two-column.uos--list--links > li:nth-child(2n+1),
+div.uol--list--two-column ul.uoe--list.uos--list--links > li:nth-child(2n+1) { padding-left: 0px; }
+ul.uol--list--two-column.uos--list--links > li:nth-child(2n),
+div.uol--list--two-column ul.uoe--list.uos--list--links > li:nth-child(2n) { padding-left: 3px; }
+
+ul.uol--list--two-column:after,
+ol.uol--list--two-column:after,
+div.uol--list--two-column ul.uoe--list:after,
+div.uol--list--two-column ol.uoe--list:after
+{
+	/* uol--clearfix */
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* -------------------------------- List Layout : uol--list--two-column (End) */
+/* ---------------------------- List Layout : uol--list--three-column (Start) */
+ul.uol--list--three-column,
+ol.uol--list--three-column,
+div.uol--list--three-column ul.uoe--list,
+div.uol--list--three-column ol.uoe--list
+{
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+ul.uol--list--three-column > li,
+div.uol--list--three-column ul.uoe--list > li { padding-left: 10px; }
+ul.uol--list--three-column > li:before,
+div.uol--list--three-column ul.uoe--list > li:before { left: -8px; }
+
+ul.uol--list--three-column > li,
+ol.uol--list--three-column > li,
+div.uol--list--three-column ul.uoe--list > li,
+div.uol--list--three-column ol.uoe--list > li
+{
+	/* uol--dir--ltr, uol--width--500 */
+	float: left;
+	width: 33.333333%;
+}
+
+ul.uol--list--three-column > li:nth-child(3n+1),
+ol.uol--list--three-column > li:nth-child(3n+1),
+div.uol--list--three-column ul.uoe--list > li:nth-child(3n+1),
+div.uol--list--three-column ol.uoe--list > li:nth-child(3n+1)
+{
+	padding-right: 3px;
+	clear: both;
+}
+
+ul.uol--list--three-column > li:nth-child(3n+2),
+div.uol--list--three-column ul.uoe--list > li:nth-child(3n+2)
+{
+	padding-left: 13px;
+	padding-right: 3px;
+}
+
+ol.uol--list--three-column > li:nth-child(3n+2),
+div.uol--list--three-column ol.uoe--list > li:nth-child(3n+2) { padding: 0 3px; }
+ul.uol--list--three-column > li:nth-child(3n),
+div.uol--list--three-column ul.uoe--list > li:nth-child(3n) { padding-left: 13px; }
+ol.uol--list--three-column > li:nth-child(3n),
+div.uol--list--three-column ol.uoe--list > li:nth-child(3n) { padding-left: 3px; }
+ul.uol--list--three-column.uos--list--links > li:nth-child(3n+1),
+div.uol--list--three-column ul.uoe--list.uos--list--links > li:nth-child(3n+1) { padding-left: 0px; }
+ul.uol--list--three-column.uos--list--links > li:nth-child(3n+2),
+div.uol--list--three-column ul.uoe--list.uos--list--links > li:nth-child(3n+2),
+ul.uol--list--three-column.uos--list--links > li:nth-child(3n),
+div.uol--list--three-column ul.uoe--list.uos--list--links > li:nth-child(3n) { padding-left: 3px; }
+
+ul.uol--list--three-column:after,
+ol.uol--list--three-column:after,
+div.uol--list--three-column ul.uoe--list:after,
+div.uol--list--three-column ol.uoe--list:after
+{
+	/* uol--clearfix */
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* ------------------------------ List Layout : uol--list--three-column (End) */
+/* --------------------- ------- List Layout : uol--list--four-column (Start) */
+ul.uol--list--four-column,
+ol.uol--list--four-column,
+div.uol--list--four-column ul.uoe--list,
+div.uol--list--four-column ol.uoe--list
+{
+	padding-left: 0;
+	list-style-position: inside;
+}
+
+ul.uol--list--four-column > li,
+div.uol--list--four-column ul.uoe--list > li { padding-left: 10px; }
+ul.uol--list--four-column > li:before,
+div.uol--list--four-column ul.uoe--list > li:before { left: -8px; }
+
+ul.uol--list--four-column > li,
+ol.uol--list--four-column > li,
+div.uol--list--four-column ul.uoe--list > li,
+div.uol--list--four-column ol.uoe--list > li
+{
+	/* uol--dir--ltr, uol--width--500 */
+	float: left;
+	width: 25%;
+}
+
+ul.uol--list--four-column > li:nth-child(4n+1),
+ol.uol--list--four-column > li:nth-child(4n+1),
+div.uol--list--four-column ul.uoe--list > li:nth-child(4n+1),
+div.uol--list--four-column ol.uoe--list > li:nth-child(4n+1)
+{
+	padding-right: 3px;
+	clear: both;
+}
+
+ul.uol--list--four-column > li:nth-child(4n+2),
+div.uol--list--four-column ul.uoe--list > li:nth-child(4n+2)
+{
+	padding-left: 13px;
+	padding-right: 3px;
+}
+
+ol.uol--list--four-column > li:nth-child(4n+2),
+div.uol--list--four-column ol.uoe--list > li:nth-child(4n+2) { padding: 0 3px; }
+
+ul.uol--list--four-column > li:nth-child(4n+3),
+div.uol--list--four-column ul.uoe--list > li:nth-child(4n+3)
+{
+	padding-left: 13px;
+	padding-right: 3px;
+}
+
+ol.uol--list--four-column > li:nth-child(4n+3),
+div.uol--list--four-column ol.uoe--list > li:nth-child(4n+3) { padding: 0 3px; }
+
+ul.uol--list--four-column > li:nth-child(4n),
+div.uol--list--four-column ul.uoe--list > li:nth-child(4n)
+{
+	padding-left: 13px;
+	padding-right: 0px;
+}
+
+ol.uol--list--four-column > li:nth-child(4n),
+div.uol--list--four-column ol.uoe--list > li:nth-child(4n)
+{
+	padding-left: 3px;
+	padding-right: 0px;
+}
+
+ul.uol--list--four-column.uos--list--links > li:nth-child(4n+1),
+div.uol--list--four-column ul.uoe--list.uos--list--links > li:nth-child(4n+1) { padding-left: 0px; }
+ul.uol--list--four-column.uos--list--links > li:nth-child(4n+2),
+div.uol--list--four-column ul.uoe--list.uos--list--links > li:nth-child(4n+2),
+ul.uol--list--four-column.uos--list--links > li:nth-child(4n+3),
+div.uol--list--four-column ul.uoe--list.uos--list--links > li:nth-child(4n+3),
+ul.uol--list--four-column.uos--list--links > li:nth-child(4n),
+div.uol--list--four-column ul.uoe--list.uos--list--links > li:nth-child(4n) { padding-left: 3px; }
+
+ul.uol--list--four-column:after,
+ol.uol--list--four-column:after,
+div.uol--list--four-column ul.uoe--list:after,
+div.uol--list--four-column ol.uoe--list:after
+{
+	/* uol--clearfix */
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* ------------ ------------------ List Layout : uol--list--four-column (End) */
+/* Sidebar nav override */
+ul.uoe--dv-ipn-nav { padding-left: 10px; }
+ul.uoe--dv-ipn-nav > li:before { content: none; }

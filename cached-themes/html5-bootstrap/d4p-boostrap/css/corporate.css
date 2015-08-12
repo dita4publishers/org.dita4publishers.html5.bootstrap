@@ -1,0 +1,34 @@
+/**
+ * Corporate colors
+ * © University of Ottawa, 2015
+ */
+
+.uos--colour-profile--background {
+  background-color: #8F001A;
+}
+
+.uos--colour-profile--background--after:after {
+  background-color: #8F001A;
+}
+
+.uos--coulour-profile--border {
+  border-color: #8F001A;
+}
+
+#uottawa-global-footer-swoosh-right,
+#uottawa-global-footer-swoosh-right-bg {
+  background-color: #8F001A;
+}
+
+.uottawa-assets-endline:after {
+  background: #8F001A;
+}
+
+h2,
+.section-title,
+.uottawa-assets-title-abs-top h3,
+.uottawa-assets-title-abs-bot h3,
+.uos--view-mode-title-position--top .uoe--view-mode--has-image .uoe--view-mode-wrapper .uoe--view-mode-title,
+.uos--view-mode-title-position--bottom .uoe--view-mode--has-image .uoe--view-mode-wrapper .uoe--view-mode-title {
+  border-left: 4px solid #8F001A;
+}
