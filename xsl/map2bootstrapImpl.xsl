@@ -200,7 +200,7 @@
   <!-- generate body -->
   <xsl:template match="*" mode="generate-body">
     <xsl:param name="map-metadata" as="element()*" tunnel="yes" />
-    <body>
+    <body data-spy="scroll" data-target="#side-navigation">
       <xsl:apply-templates select="." mode="set-body-class-attr" />
       <xsl:apply-templates select="." mode="generate-main-container"/>
     </body>

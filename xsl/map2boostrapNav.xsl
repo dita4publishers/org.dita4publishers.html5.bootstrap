@@ -37,7 +37,7 @@
     <xsl:param name="documentation-title" tunnel="yes" />
     <xsl:param name="is-root" as="xs:boolean" tunnel="yes" select="false()" />
 
-    <nav id="side-navigation" class="bs-docs-sidebar hidden-print hidden-xs">
+    <nav id="side-navigation" class="bs-docs-sidebar hidden-print hidden-xs" data-spy="affix" data-offset-top="60">
           <xsl:variable name="listItems" as="node()*">
             <xsl:apply-templates mode="generate-html5-nav"
               select=".
